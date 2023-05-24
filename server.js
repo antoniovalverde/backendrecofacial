@@ -13,7 +13,7 @@ const db = knex({
   connection: {
     host : 'dpg-chmsnnik728vrdfpqbe0-a.oregon-postgres.render.com',
     ssl: { rejectUnauthorized: false },
-    port: 5432
+    port: 5432,
     user : 'mydb_zuza_user',
     password : 'Ze83calq4CLu8VoTuPAPoRiMr7DfUgPf',
     database : 'mydb_zuza'
