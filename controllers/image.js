@@ -77,6 +77,8 @@ const handleApiCall = (req, res) => {
 	            throw new Error("Post model outputs failed, status: " + response.status.description);
 	        }
 
+	        res.json(response);
+
 	        // Since we have one input, one output will exist here
 	        const output = response.outputs[0];
 
